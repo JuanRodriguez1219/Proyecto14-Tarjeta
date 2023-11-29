@@ -11,7 +11,7 @@ let fechaNumero = [];
 let cvvNumero = [];
 
 inputTarjeta.addEventListener("keydown", (e) => {
-    if(e.key === "tab") {
+    if(e.key === "Tab") {
         return;
     }
     e.preventDefault();
